@@ -1,0 +1,110 @@
+{
+  "avatar": {
+    "src": "",
+    "hidden": true
+  },
+  "profile": {
+    "name": "齐家辉",
+    "email": "jahoo_qi@126.com",
+    "mobile": "13009487385",
+    "workExpYear": "3年",
+    "positionTitle": "大数据开发工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2015.09.01", "2019.06.30"],
+      "school": "大连海事大学",
+      "major": "软件工程",
+      "academic_degree": "本科"
+    }
+  ],
+  "awardList": [
+    {
+      "award_info": "ElasticSearch日志场景下跨版本升级专利",
+      "award_time": "2021.04"
+    },
+    {
+      "award_info": "美国大学生数学竞赛 一等奖",
+      "award_time": "2018.02"
+    },
+    {
+      "award_info": "国家级大学生创新项目",
+      "award_time": "2017.11"
+    }
+  ],
+  "workExpList": [
+    {
+      "company_name": "贝壳找房",
+      "department_name": "基础架构部",
+      "work_time": ["2019.06", null],
+      "work_desc": "1. 公司级日志中心团队核心成员\r\n2. 独立完成Elasticsearch平台从0到1建设\r\n3. 公司级to B/to C搜索产品负责人"
+    },
+	{
+      "company_name": "贝壳找房",
+      "department_name": "实习",
+      "work_time": ["2018.11", "2019.03"],
+      "work_desc": "实习生。日志中心的前后端研发工作，使用springboot进行功能开发，Vue实现页面逻辑"
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "Elasticsearch",
+      "skill_desc": "多集群部署运维自动化，提供实时、稳定、低成本、高可用的原生ES能力",
+      "skill_level": 92
+    },
+	{
+      "skill_name": "监控告警基础架构",
+      "skill_desc": "数据ETL架构设计，通过收集日志、链路、apm等数据产出监控大盘&告警能力",
+      "skill_level": 78
+	},
+    {
+      "skill_name": "springboot & springcloud",
+      "skill_desc": "自定义配置刷新策略、请求限流、缓存降级熔断",
+      "skill_level": 64
+    },
+	{
+      "skill_name": "kubernetes",
+      "skill_desc": "k8s集群搭建&监控告警完善，master高可用改造",
+      "skill_level": 45
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "日志中心",
+      "project_role": "核心开发者",
+      "project_time": "2019.06 - 2020.04",
+      "project_desc": "面向公司的日志基础服务，通过日志收集处理给公司项目提供标准化的监控告警能力，包括问题快速定位、实时指标监控大盘，可配置化实时报警检测，域名流量统计等",
+      "project_content": "• 项目前后端功能性开发；\r\n•  接入springcloud生态，实现项目微服务化改造；\r\n• ETL流程开发，优化处理资源，降本50%;"
+    },
+    {
+      "project_name": "ES平台",
+      "project_role": "负责人",
+      "project_time": "2019.07 - 至今",
+      "project_desc": "• 以ES为基础，为公司级应用/日志/链路监控告警提供大数据、高可用、实时的通用查询能力；\r\n• 为内部产研提供开箱即用的ES资源及易用的API，屏蔽集群/索引管理内容，使业务聚焦于读写；
+",
+      "project_content": "• 集群/索引参数调优，提升写入性能&可用性至99.99%；\r\n
+• 时序数据冷热分离，存储计算分离，节点无状态化，提升集群可用性，存储成本节省80%；\r\n
+• 整合公司内部业务零散ES集群成为平台能力，并建立较为完善的集群搭建&使用规范；\r\n
+• 集群监控报警体系搭建，索引生命周期自助管理，开发查询API，ES资源申请/变更流程自动化；\r\n
+• 磁盘容量/读写流量自动均衡，节点/连接地址无感知更换，业务写入断线自动获取地址重连；\r\n
+• 多集群跨版本无感知升级，从5.6升级至7.7，并发表专利；\r\n
+• 从19年7月独立开发维护ES平台至今，独立管理多集群，数据量达百T级；"
+    },
+    {
+      "project_name": "搜索云平台",
+      "project_role": "主要负责人",
+      "project_time": "2021.03 - 至今",
+      "project_desc": "公司级别搜索产品，为B端、C端、APP首页等搜索推荐场景提供高可用的检索能力",
+      "project_content": "• 独立完成搜索中台团队交接；\r\n
+	  • ES on k8s，实现运维自动化、监控异常自动恢复实现高可用，资源限制&隔离；\r\n
+• 基于nlp、ik中文分词的自定义分词器，同义词动态更新实时同步；\r\n
+• 网关层：读写限流、请求校验、降级回放、查询缓存、失败队列；\r\n
+• ES主备集群容灾，数据一致性校验，查询异常自动切换；\r\n
+• 多集群稳定运维，日查询量十亿+；"
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "大数据开发工程师，主方向是Elasticsearch搜索引擎，对ES底层有比较深入的理解，进行过多次ES集群改造，比如冷热分离，存算分离，跨版本升级等，保证稳定高可用，持续优化读写性能，自定义插件开发等。此外对公司监控架构搭建和springcloud生态也有一点了解。"
+  }
+}
